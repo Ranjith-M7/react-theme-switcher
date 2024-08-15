@@ -5,14 +5,26 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+ 
+}
+button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: transparent;
+}
+.content{
+    margin-top: 120px;
+}
+.content h1{
   font-family: "New Amsterdam", sans-serif;
   font-style: italic;
+  margin: 60px 0;
 }
-button{
+.title{
     position: absolute;
     top: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background: transparent;
+    left: 20px;
+    font-size: 20px;
 }
